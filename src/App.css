@@ -1,0 +1,77 @@
+/* .App {
+  text-align: center;
+} */
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 5rem auto;
+  padding: 0 1rem;
+  border: 1px solid orange;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  
+}
+
+.input-text{
+  flex: 8;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  font-weight: 500;
+  max-width: 80%;
+  margin-right: 0.5rem;
+}
+
+.input-text::placeholder{
+  color: dodgerblue
+}
+
+.input-submit{
+  flex: 2;
+  border: dodgerblue;
+  background-color: dodgerblue;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+.todo-item{
+  list-style-type: none;
+  padding: 1rem 0px;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.todo-item input{
+  margin-right:  1rem;
+}
+
+.todo-item button{
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    float: right; 
+    
+}

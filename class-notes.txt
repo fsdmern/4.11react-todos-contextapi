@@ -1,0 +1,14 @@
+React - Todos with ContextAPI
+=========================================
+The ContextAPI in react llow every component in the component tree to have access to consume data without having to manually pass props downn from parent to child.
+
+Advantage: To pass data from Level 5 to Level 1, then data has to pass through 4,3 & components which are acting like middle man. Using ContextAPI we can cut these middle man like components
+Through this approach only the component that needs the data would about the data.
+
+Design: We will be creating a global data store like mechanism (Provider and Consumer) and then we make sure the data is available to which ever component that requires it.
+
+ 
+
+
+
+
